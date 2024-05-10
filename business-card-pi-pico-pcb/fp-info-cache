@@ -1,4 +1,4 @@
-23130147017462836
+23126716728764271
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -82977,27 +82977,6 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
-Pi Pico
-Crystal_SMD_HC49-US
-SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
-SMD SMT crystal
-0
-2
-2
-Pi Pico
-RP2040-QFN-56
-QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
-0
-70
-57
-Pi Pico
-RPi_Pico_SMD_TH
-Through hole straight pin header, 2x20, 2.54mm pitch, double rows
-Through hole pin header THT 2x20 2.54mm double row
-0
-86
-43
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -87205,6 +87184,13 @@ rotary encoder
 0
 7
 6
+SSD1306
+128x64OLED
+
+
+0
+4
+4
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
