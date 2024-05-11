@@ -1771,6 +1771,12 @@
 		(uuid "66267525-26b3-4570-959e-335b85925c57")
 	)
 	(junction
+		(at 129.54 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66cfb15b-b5c5-4c92-9838-803c7e8197f7")
+	)
+	(junction
 		(at 173.99 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1969,6 +1975,16 @@
 			(type default)
 		)
 		(uuid "0532e259-a3dd-4f01-8f1c-240ca5b15824")
+	)
+	(wire
+		(pts
+			(xy 129.54 142.24) (xy 129.54 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07031edd-0e46-444f-9913-56e6432e1419")
 	)
 	(wire
 		(pts
@@ -2239,16 +2255,6 @@
 			(type default)
 		)
 		(uuid "327b3779-b3ab-4ae2-aa1a-b4bac4d010c5")
-	)
-	(wire
-		(pts
-			(xy 129.54 142.24) (xy 129.54 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32bc9df9-95c6-46f7-b8a0-e859913fb86f")
 	)
 	(wire
 		(pts
@@ -2789,6 +2795,16 @@
 			(type default)
 		)
 		(uuid "76b5fe31-0813-4a91-b72d-4c22d22c3bbb")
+	)
+	(wire
+		(pts
+			(xy 129.54 142.24) (xy 133.35 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78149227-576b-4ac2-8ab1-da82045602ad")
 	)
 	(wire
 		(pts
@@ -3554,6 +3570,28 @@
 			)
 		)
 	)
+	(global_label "Capacitive_touch"
+		(shape input)
+		(at 140.97 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c6d8b93-6807-4f4a-aa4b-b7fb140b7f8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.9812 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "pin5"
 		(shape input)
 		(at 162.56 116.84 180)
@@ -3968,28 +4006,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Capacitive_touch"
-		(shape input)
-		(at 129.54 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef7e45e1-4835-42b4-8734-a96a36a15b0d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.5512 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6337,6 +6353,74 @@
 			(project "business-card-pi-pico"
 				(path "/3e5122c1-1f9e-4892-9d66-f0f99c7e104b"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f049c35-278f-486b-a06a-123775a940f9")
+		(property "Reference" "R9"
+			(at 137.16 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 137.16 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 137.16 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5db1c9cd-45d7-4cbb-a7df-2c73d025d940")
+		)
+		(pin "1"
+			(uuid "4b512af2-be2d-4a75-badc-35ac4db3dde1")
+		)
+		(instances
+			(project "business-card-pi-pico"
+				(path "/3e5122c1-1f9e-4892-9d66-f0f99c7e104b"
+					(reference "R9")
 					(unit 1)
 				)
 			)
