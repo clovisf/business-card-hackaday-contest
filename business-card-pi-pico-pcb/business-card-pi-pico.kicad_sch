@@ -3614,28 +3614,6 @@
 			)
 		)
 	)
-	(global_label "3V3"
-		(shape input)
-		(at 114.3 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3679b389-aa7d-4a0c-a19e-837a3dbf6040")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.7928 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "pin2"
 		(shape input)
 		(at 111.76 31.75 180)
@@ -3676,28 +3654,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 114.3 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "432c967c-6f15-4ae0-8a7c-27a7ffc31c86")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.7928 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3786,28 +3742,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 114.3 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "65c100c7-f287-4123-aea8-a9abf84a6267")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.8533 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3922,6 +3856,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 114.3 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93dd0ad0-5425-443e-8eff-2a72e06b2bdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.8533 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "pin6"
 		(shape input)
 		(at 170.18 119.38 180)
@@ -3984,6 +3940,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 114.3 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b670631a-53bf-4bb3-9378-0dc163bac1b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.7928 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 114.3 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bade5152-e83d-4ea8-a45e-ffd846ea41f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.7928 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6159,73 +6159,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f9ba393-5a8e-44fc-8051-361502c07b41")
-		(property "Reference" "#PWR010"
-			(at 120.65 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 124.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c24b8f7b-214f-49ab-9fa8-7b9e0b859cad")
-		)
-		(instances
-			(project "business-card-pi-pico"
-				(path "/3e5122c1-1f9e-4892-9d66-f0f99c7e104b"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 170.18 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7044,6 +6977,73 @@
 			(project "business-card-pi-pico"
 				(path "/3e5122c1-1f9e-4892-9d66-f0f99c7e104b"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acd24c0c-d7d5-4eda-81db-3d760ab90ecc")
+		(property "Reference" "#PWR010"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eaf7e32-b4ee-4387-803d-0bb82fa8f68b")
+		)
+		(instances
+			(project "business-card-pi-pico"
+				(path "/3e5122c1-1f9e-4892-9d66-f0f99c7e104b"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
